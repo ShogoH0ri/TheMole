@@ -1,0 +1,475 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pikatuu\\Shooting Game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|c:\\users\\pikatuu\\shooting game\\assets\\scripts\\enemy\\states\\searchstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\states\\searchstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|C:\\Users\\pikatuu\\Shooting Game\\assets\\scripts\\enemy\\states\\controlstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\states\\controlstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|c:\\users\\pikatuu\\shooting game\\assets\\scripts\\enemy\\states\\basestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\states\\basestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|C:\\Users\\pikatuu\\Shooting Game\\assets\\scripts\\enemy\\states\\attackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\states\\attackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|C:\\Users\\pikatuu\\Shooting Game\\assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|c:\\users\\pikatuu\\shooting game\\assets\\scripts\\mainmenu\\gamemenu\\gamemenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu\\gamemenu\\gamemenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|C:\\Users\\pikatuu\\Shooting Game\\assets\\scripts\\mainmenu\\optionmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu\\optionmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|C:\\Users\\pikatuu\\Shooting Game\\assets\\scripts\\mainmenu\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|C:\\Users\\pikatuu\\Shooting Game\\assets\\scripts\\mainmenu\\gameovermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu\\gameovermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|c:\\users\\pikatuu\\shooting game\\assets\\scripts\\player\\playerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|C:\\Users\\pikatuu\\Shooting Game\\assets\\scripts\\player\\playermotor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermotor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|c:\\users\\pikatuu\\shooting game\\assets\\scripts\\player\\playerlook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerlook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|C:\\Users\\pikatuu\\Shooting Game\\assets\\scripts\\player\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|c:\\users\\pikatuu\\shooting game\\assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|C:\\Users\\pikatuu\\Shooting Game\\assets\\scripts\\weapon\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|c:\\users\\pikatuu\\shooting game\\assets\\scripts\\weapon\\playerbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon\\playerbullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|C:\\Users\\pikatuu\\Shooting Game\\assets\\scripts\\worldsetting\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\worldsetting\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|C:\\Users\\pikatuu\\Shooting Game\\assets\\scripts\\interactable\\key.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactable\\key.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|c:\\users\\pikatuu\\shooting game\\assets\\scripts\\worldsetting\\bootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\worldsetting\\bootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|c:\\users\\pikatuu\\shooting game\\assets\\scripts\\interactionevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactionevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|C:\\Users\\pikatuu\\Shooting Game\\assets\\scripts\\interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|c:\\users\\pikatuu\\shooting game\\assets\\scripts\\eventonlyinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\eventonlyinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|C:\\Users\\pikatuu\\Shooting Game\\assets\\scripts\\interactable\\opendoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactable\\opendoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|C:\\Users\\pikatuu\\Shooting Game\\assets\\scripts\\interactable\\vent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactable\\vent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|C:\\Users\\pikatuu\\Shooting Game\\assets\\scripts\\interactable\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactable\\cube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|C:\\Users\\pikatuu\\Shooting Game\\assets\\scripts\\interactable\\triggerbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactable\\triggerbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|C:\\Users\\pikatuu\\Shooting Game\\assets\\scripts\\enemy\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C5C89D-1947-F194-D5F3-41A4D9C6AA58}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Key.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Interactable\\Key.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactable\\Key.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Interactable\\Key.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interactable\\Key.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T09:28:07.622Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SearchState.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Enemy\\States\\SearchState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\States\\SearchState.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Enemy\\States\\SearchState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\States\\SearchState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T12:16:09.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseState.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Enemy\\States\\BaseState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\States\\BaseState.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Enemy\\States\\BaseState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\States\\BaseState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T12:15:57.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameMenuManager.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\MainMenu\\GameMenu\\GameMenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu\\GameMenu\\GameMenuManager.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\MainMenu\\GameMenu\\GameMenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu\\GameMenu\\GameMenuManager.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T12:12:28.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OptionMenu.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\MainMenu\\OptionMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu\\OptionMenu.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\MainMenu\\OptionMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu\\OptionMenu.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T08:54:29.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlayerUI.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Player\\PlayerUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerUI.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Player\\PlayerUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T12:11:37.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameOverMenu.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\MainMenu\\GameOverMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu\\GameOverMenu.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\MainMenu\\GameOverMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu\\GameOverMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T08:30:21.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\MainMenu\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\MainMenu\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu\\MainMenu.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAcwCEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T09:01:27.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Enemy\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Enemy\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T05:11:00.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ControlState.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Enemy\\States\\ControlState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\States\\ControlState.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Enemy\\States\\ControlState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\States\\ControlState.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T05:08:33.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlayerMotor.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Player\\PlayerMotor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMotor.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Player\\PlayerMotor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMotor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T04:15:51.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AttackState.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Enemy\\States\\AttackState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\States\\AttackState.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Enemy\\States\\AttackState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\States\\AttackState.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAQwD0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T05:09:17.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlayerLook.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Player\\PlayerLook.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerLook.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Player\\PlayerLook.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerLook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T12:08:36.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T11:59:53.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Weapon\\Weapon.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Weapon\\Weapon.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Weapon\\Weapon.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Weapon\\Weapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T09:27:49.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PlayerBullet.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Weapon\\PlayerBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Weapon\\PlayerBullet.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Weapon\\PlayerBullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Weapon\\PlayerBullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T11:59:27.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Bootstrapper.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\WorldSetting\\Bootstrapper.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WorldSetting\\Bootstrapper.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\WorldSetting\\Bootstrapper.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WorldSetting\\Bootstrapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T11:57:30.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "InteractionEvent.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\InteractionEvent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractionEvent.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\InteractionEvent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InteractionEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T11:57:26.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EventOnlyInteractable.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\EventOnlyInteractable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EventOnlyInteractable.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\EventOnlyInteractable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EventOnlyInteractable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T11:56:42.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlayerInteract.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Player\\PlayerInteract.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerInteract.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Player\\PlayerInteract.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerInteract.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T09:43:21.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Cube.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Interactable\\Cube.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactable\\Cube.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Interactable\\Cube.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interactable\\Cube.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:21:15.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Vent.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Interactable\\Vent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactable\\Vent.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Interactable\\Vent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interactable\\Vent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:20:03.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainGame.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\WorldSetting\\MainGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WorldSetting\\MainGame.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\WorldSetting\\MainGame.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WorldSetting\\MainGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T09:25:15.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OpenDoor.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Interactable\\OpenDoor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactable\\OpenDoor.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Interactable\\OpenDoor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interactable\\OpenDoor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:37:24.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Interactable.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Interactable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactable.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Interactable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interactable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T10:11:36.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EnemyBullet.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Enemy\\EnemyBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyBullet.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Enemy\\EnemyBullet.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyBullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T05:11:25.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TriggerBox.cs",
+              "DocumentMoniker": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Interactable\\TriggerBox.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interactable\\TriggerBox.cs",
+              "ToolTip": "C:\\Users\\pikatuu\\Shooting Game\\Assets\\Scripts\\Interactable\\TriggerBox.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interactable\\TriggerBox.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T05:28:26.838Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
