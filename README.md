@@ -8,7 +8,7 @@ Unityで制作したFPSステルスアクションゲーム。プレイヤーは
 敵を複雑に動かすため
 
 ## スクリーンショット
-markdown 　## スクリーンショット 　![ゲームの一部シーン](./Image/ProjectScene.png)
+markdown 　## スクリーンショット 　![ゲームの一部シーン](ShootingGame/Image/ProjectScene.png)
 
 ## 使用技術
 - Unity 2022.3
