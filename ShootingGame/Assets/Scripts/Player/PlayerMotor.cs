@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+// プレイヤーの移動・操作・武器・アイテム管理クラス
 public class PlayerMotor : MonoBehaviour
 {
     [Header("MovementSetting")]
@@ -15,12 +16,12 @@ public class PlayerMotor : MonoBehaviour
     public float jumpHeight = 1f;
     public bool sprinting;
     public bool crouching;
-    public float fallMultiplier = 2.5f;
-    public float lowJumpMultiplier = 2f;
+    public float fallMultiplier = 2.5f;　　// 落下速度補正
+    public float lowJumpMultiplier = 2f;　　// 低ジャンプ補正
 
-    public bool lerpCrouch;
-    public float crouchTimer;
-    public int killcount= 0;
+    public bool lerpCrouch;　　// しゃがみ高さ補間フラグ
+    public float crouchTimer;　　// 補間タイマー
+    public int killcount = 0;
 
     public int RequiredKills;
 
@@ -31,9 +32,9 @@ public class PlayerMotor : MonoBehaviour
     public Transform keyHolder;
 
     [SerializeField]
-    private GameObject door;
+    private GameObject door;　　// 必要キルで開くドア
 
-    [Header ("WeaponSetting")]
+    [Header("WeaponSetting")]
     public Camera playerCamera;
     public bool hasWeapon = false;
     public GameObject weaponPrefab;
@@ -44,6 +45,7 @@ public class PlayerMotor : MonoBehaviour
     public float bulletVelocity = 30;
     public float bulletPrefabLifeTime = 3f;
 
+    // プロパティ
     public bool IsCrouching => crouching;
 
     void Start()
@@ -53,17 +55,18 @@ public class PlayerMotor : MonoBehaviour
 
     void Update()
     {
-        Fall();
+        Fall();　　// 重力処理
 
+        // しゃがみ補間処理
         if (lerpCrouch)
         {
             crouchTimer += Time.deltaTime;
-            float p = crouchTimer / 1;
-            p *= p;
+            float p = crouchTimer / 1;　　// 1秒で補間
+            p *= p;　　// イージング
             if (crouching)
             {
                 controller.height = Mathf.Lerp(controller.height, 1, p);
-                
+
             }
             else
             {
@@ -77,26 +80,27 @@ public class PlayerMotor : MonoBehaviour
             }
         }
 
+        // 射撃処理
         if (hasWeapon && Mouse.current.leftButton.wasPressedThisFrame)
         {
             FireWeapon();
         }
     }
 
-    public void Fall()
+    public void Fall()　　// 重力・落下・ジャンプ補正処理
     {
         isGrounded = controller.isGrounded;
 
-        if (isGrounded )
+        if (isGrounded)
         {
-            if(playerVelocity.y < 0)
+            if (playerVelocity.y < 0)
             {
-                playerVelocity.y = -2f;
+                playerVelocity.y = -2f;　　// 接地時に速度リセット
             }
         }
         else
         {
-            if(playerVelocity.y > 0)
+            if (playerVelocity.y > 0)
             {
                 playerVelocity.y += gravity * lowJumpMultiplier * Time.deltaTime;
             }
@@ -108,10 +112,10 @@ public class PlayerMotor : MonoBehaviour
             {
                 playerVelocity.y += gravity * Time.deltaTime;
             }
-        
+
         }
     }
-    public void ProcessMove(Vector2 input)
+    public void ProcessMove(Vector2 input)　　// 移動入力処理
     {
         Vector3 moveDirection = Vector3.zero;
         moveDirection.x = input.x;
@@ -133,13 +137,14 @@ public class PlayerMotor : MonoBehaviour
 
         controller.Move(transform.TransformDirection(moveDirection) * currentSpeed * Time.deltaTime);
 
+        // 重力処理
         playerVelocity.y += gravity * Time.deltaTime;
         if (isGrounded && playerVelocity.y < 0)
             playerVelocity.y = -2f;
         controller.Move(playerVelocity * Time.deltaTime);
     }
 
-    public void Jump()
+    public void Jump()　　// ジャンプ処理
     {
         if (isGrounded)
         {
@@ -148,7 +153,7 @@ public class PlayerMotor : MonoBehaviour
 
     }
 
-    public void OnSprint(InputAction.CallbackContext context)
+    public void OnSprint(InputAction.CallbackContext context)　　// 走る入力処理
     {
         if (context.performed)
         {
@@ -159,14 +164,14 @@ public class PlayerMotor : MonoBehaviour
             sprinting = false;
         }
     }
-    public void Crouch()
+    public void Crouch()　　// しゃがみ切り替え
     {
         crouching = !crouching;
         crouchTimer = 0;
         lerpCrouch = true;
     }
 
-    public void EquipKey()
+    public void EquipKey()　　// 鍵を装備
     {
         hasKey = true;
         if (currentWeapon != null)
@@ -177,13 +182,13 @@ public class PlayerMotor : MonoBehaviour
         hasWeapon = false;
     }
 
-    public void EquipWeapon()
+    public void EquipWeapon()　　// 武器を装備
     {
         hasWeapon = true;
-        currentWeapon = Instantiate(weaponPrefab, weaponHolder.position, weaponHolder.rotation,weaponHolder);
+        currentWeapon = Instantiate(weaponPrefab, weaponHolder.position, weaponHolder.rotation, weaponHolder);
     }
 
-    public void FireWeapon()
+    public void FireWeapon()　　// 射撃処理
     {
         if (!hasWeapon) return;
 
@@ -200,7 +205,7 @@ public class PlayerMotor : MonoBehaviour
         StartCoroutine(DestroyBulletAfterTime(bullet, bulletPrefabLifeTime));
     }
 
-    public void KillCount()
+    public void KillCount()　　// キル数カウント処理と必要キルでのキー生成
     {
         killcount++;
         if (killcount >= RequiredKills && door != null)
@@ -209,7 +214,7 @@ public class PlayerMotor : MonoBehaviour
         }
     }
 
-    private IEnumerator DestroyBulletAfterTime(GameObject bullet, float delay)
+    private IEnumerator DestroyBulletAfterTime(GameObject bullet, float delay)　　// 指定秒後に弾を破壊
     {
         yield return new WaitForSeconds(delay);
         Destroy(bullet);

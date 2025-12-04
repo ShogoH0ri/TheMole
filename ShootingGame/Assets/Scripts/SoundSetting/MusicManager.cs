@@ -3,42 +3,47 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 
+// BGM管理クラス
 public class MusicManager : MonoBehaviour
 {
-    public static MusicManager Instance;
-
-    [SerializeField] 
-    private MusicLibrary musicLibrary;
+    public static MusicManager Instance;　　// シングルトン
 
     [SerializeField]
-    private AudioSource musicSource;
+    private MusicLibrary musicLibrary;　　// 曲データライブラリ
 
     [SerializeField]
-    private AudioMixerGroup MusicGroup;
+    private AudioSource musicSource;　　// BGM再生用AudioSource
+
+    [SerializeField]
+    private AudioMixerGroup MusicGroup;　　// オーディオミキサーグループ
 
     private void Awake()
     {
-        musicSource.gameObject.SetActive(true);
+        musicSource.gameObject.SetActive(true);　　 // AudioSource を有効化
 
-        if (Instance != null)
+        if (Instance != null)　　// シングルトンのチェック
         {
-            Destroy(gameObject);
+            Destroy(gameObject);　　// 既に存在する場合は破棄
         }
         else
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad(gameObject);　　// シーンを跨いで保持
         }
     }
 
+    // 曲を再生（クロスフェード
     public void PlayMusic(string trackName, float fadeDuration = 0.5f)
     {
         StartCoroutine(AnimateMusicCrossfade(musicLibrary.GetClipFromName(trackName), fadeDuration));
     }
 
+    // 曲をクロスフェードで切り替えるコルーチン
     IEnumerator AnimateMusicCrossfade(AudioClip nextTrack, float fadeDuration = 0.5f)
     {
         float percent = 0;
+
+        // フェードアウト
         while (percent < 1)
         {
             percent += Time.deltaTime * 1 / fadeDuration;
@@ -46,10 +51,12 @@ public class MusicManager : MonoBehaviour
             yield return null;
         }
 
-        musicSource.clip = nextTrack;
+        musicSource.clip = nextTrack;　　// 曲の切り替え
         musicSource.Play();
 
         percent = 0;
+
+        // フェードイン
         while (percent < 1)
         {
             percent += Time.deltaTime * 1 / fadeDuration;

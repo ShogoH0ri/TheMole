@@ -10,13 +10,13 @@ public class Teleporter : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Player"))
+        if(other.gameObject.CompareTag("Player"))　　// プレイヤーと重なったら
         {
             ChangeScene();
         }
     }
     public void ChangeScene()
     {
-        SceneManager.LoadScene(SceneName);
+        SceneManager.LoadScene(SceneName);　　// シーン切り替え
     }
 }

@@ -11,10 +11,10 @@ public class OpenDoor : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         PlayerMotor player = other.GetComponent<PlayerMotor>();
-        if (player != null && player.hasKey)
+        if (player != null && player.hasKey)　　// プレイヤーが鍵を持っていたら
         {
             doorOpen = !doorOpen;
-            door.GetComponent<Animator>().SetBool("IsOpen", true);
+            door.GetComponent<Animator>().SetBool("IsOpen", true);　　// アニメーターでドアが開く
         }
     }
 }
